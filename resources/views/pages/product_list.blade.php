@@ -10,7 +10,7 @@
 
 	<div class="jumbotron">
 		<div class="container">
-			<h1 class="text-center">Product List ({{count($data_product)}})</h1>
+			<h1 class="text-center">Products List ({{count($data_product)}})</h1>
 		</div>
 	</div>
 
