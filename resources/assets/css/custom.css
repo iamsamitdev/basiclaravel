@@ -1,0 +1,117 @@
+body
+{
+	/*background-color: #C91111;*/
+}
+
+.navbar
+{
+	margin-bottom: 0px;
+}
+
+.carousel
+{
+	padding-top: 50px;
+}
+
+.carousel img
+{
+	min-height: 400px;
+}
+
+.jumbotron
+{
+	background-color: #2196F3;
+	color: #fff;
+}
+
+.glyphicon-lock
+{
+	color: #035AB4;
+	font-size: 60px;
+}
+
+.glyphicon-heart
+{
+	color: #D80075;
+	font-size: 60px;
+}
+
+.glyphicon-tint
+{
+	color: #1B8B05;
+	font-size: 60px;
+}
+
+.footer
+{
+	background-color: #737373;
+	margin-top: 40px;
+	padding-top: 40px;
+}
+
+ul.list-unstyled li 
+{
+	color: #fff;
+}
+
+ul.list-unstyled li a
+{
+	color: #fff;
+}
+
+p.text-muted
+{
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover
+{
+	background-color: #FBB950;
+	color: #fff;
+}
+
+/************* REGISTER PAGE *************/
+.registerbox
+{
+	padding-top: 80px;
+}
+
+/* Credit to bootsnipp.com for the css for the color graph */
+.colorgraph {
+  height: 5px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+.alert
+{
+	padding:0px;
+}
+
+.msgbox
+{
+	padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+	.carousel
+	{
+		padding-top: 50px;
+	}
+
+	.carousel img
+	{
+		min-height: 250px;
+	}
+
+	.glyphicon-chevron-left , .glyphicon-chevron-right
+	{
+		font-size: 20px;
+		padding-top: 20px;
+	}
+}
